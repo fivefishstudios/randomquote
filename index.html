@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RandomQuotomator Machine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://unpkg.com/vue"></script>  
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/randomquote.css" rel="stylesheet">
+</head>
+  
+<body>
+  <div id="screen">
+    <div id="desktop">
+      <div id="topmenu"></div>
+
+      <div class="window ui-widget-content" id="main">
+          <div id="refresh" @click="generateNewQuote"><a href="#"><i class="fa fa-refresh fa-5x" aria-hidden="true"></i></a></div>
+          <div id="quote"><i class="fa fa-quote-left" aria-hidden="true"></i>
+              {{ quotes[ndx].message }}
+              <i class="fa fa-quote-right" aria-hidden="true"></i><br>
+              - <i>{{ quotes[ndx].person }}</i>
+          </div>
+      </div>
+
+
+      <div id="dock"></div>
+    </div>
+  </div>
+</body>
+
+<script src="/js/randomquote.js"></script>
+  
+</html>

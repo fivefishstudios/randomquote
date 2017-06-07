@@ -9,6 +9,18 @@
 	],
 "creatorBuild": "25813",
 "files": {
+	"\/.surgeignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.surgeignore",
+		"oF": 0
+		},
+	"\/assets\/osx.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/osx.psd",
+		"oF": 0
+		},
 	"\/bower_components\/jquery\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -2508,6 +2520,80 @@
 		"oA": 1,
 		"oAP": "\/build\/build",
 		"oF": 0
+		},
+	"\/CNAME": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/CNAME",
+		"oF": 0
+		},
+	"\/css\/randomquote.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/css\/randomquote.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/images\/desktop.jpg": {
+		"ft": 16384,
+		"iS": 248208,
+		"oA": 0,
+		"oAP": "\/build\/images\/desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 80
+		},
+	"\/images\/dock.png": {
+		"ft": 32768,
+		"iS": 78325,
+		"oA": 0,
+		"oAP": "\/build\/images\/dock.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/images\/topmenu.png": {
+		"ft": 32768,
+		"iS": 27053,
+		"oA": 0,
+		"oAP": "\/build\/images\/topmenu.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/images\/window.png": {
+		"ft": 32768,
+		"iS": 24620,
+		"oA": 0,
+		"oAP": "\/build\/images\/window.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/index.html",
+		"oF": 0
+		},
+	"\/js\/randomquote.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/js\/randomquote.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		}
 	},
 "hooks": [
@@ -2519,7 +2605,7 @@
 	"displayValue": "random quote",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-crying",
-	"lastBuiltDate": 518480659
+	"lastBuiltDate": 518501888
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4243,7 +4329,7 @@
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathFilenamePattern": "*.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
@@ -4456,21 +4542,21 @@
 	"languageDefaultsUserDefined": [
 		{
 			"autoOutputAction": 0,
-			"autoOutputPathFilenamePattern": "*.asp",
-			"autoOutputPathRelativePath": "",
-			"autoOutputPathReplace1": "",
-			"autoOutputPathReplace2": "",
-			"autoOutputPathStyle": 0,
-			"fileExtension": "asp"
-			},
-		{
-			"autoOutputAction": 0,
 			"autoOutputPathFilenamePattern": "*.cshtml",
 			"autoOutputPathRelativePath": "",
 			"autoOutputPathReplace1": "",
 			"autoOutputPathReplace2": "",
 			"autoOutputPathStyle": 0,
 			"fileExtension": "cshtml"
+			},
+		{
+			"autoOutputAction": 0,
+			"autoOutputPathFilenamePattern": "*.asp",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "asp"
 			}
 		],
 	"previewPathAddition": "",
