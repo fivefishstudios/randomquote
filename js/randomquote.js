@@ -10,6 +10,10 @@
         disabled: true
       });
       
+      $('.notification').draggable({
+        disabled: true
+      });
+      
       $('#dock').draggable({
         snapMode: "outer",
         snap: true,
@@ -31,10 +35,19 @@
         $('#screen').css('height', $(window).height() );  // change height of 'screen' to be equal to browser window height, then hide the overflow
         $('#main').css('top', ($(window).height() - 354 - 50 )/2);  // position quote window on center of screen. 
         $('#main').css('left', ($(window).width() - 585) / 2 );     // position quote window on center
+        // if notification window isn't dismissed, and browser resized... move it too!
+        $('#instruction').css('left', $(window).width() - 270 - 60 );
     });
-
     $(window).trigger('resize');
 
+    // position notification window to right side
+    $('#instruction').css('left', $(window).width() - 270 - 60 );
+
+    // fade in notification to display initially
+    setTimeout(function(){
+      $('#instruction').fadeIn("slow");
+    },800);
+    
 
     // setup VueJS for random quotes
     myapp = new Vue({
@@ -66,8 +79,16 @@
             $('#quote').fadeIn("400");            
           } ,150);
           this.ndx = parseInt(Math.random() * this.quotes.length); 
+        },
+        
+        dismissNotification: function(){
+          $('#instruction').slideUp("fast");
         }
+        
       }
     });
+
+    // init initial random quote
+    myapp.generateNewQuote();
   
   

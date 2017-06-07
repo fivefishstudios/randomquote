@@ -2515,6 +2515,12 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
 	"\/CNAME": {
 		"ft": 8192,
 		"oA": 2,
@@ -4536,21 +4542,21 @@
 	"languageDefaultsUserDefined": [
 		{
 			"autoOutputAction": 0,
-			"autoOutputPathFilenamePattern": "*.cshtml",
-			"autoOutputPathRelativePath": "",
-			"autoOutputPathReplace1": "",
-			"autoOutputPathReplace2": "",
-			"autoOutputPathStyle": 0,
-			"fileExtension": "cshtml"
-			},
-		{
-			"autoOutputAction": 0,
 			"autoOutputPathFilenamePattern": "*.asp",
 			"autoOutputPathRelativePath": "",
 			"autoOutputPathReplace1": "",
 			"autoOutputPathReplace2": "",
 			"autoOutputPathStyle": 0,
 			"fileExtension": "asp"
+			},
+		{
+			"autoOutputAction": 0,
+			"autoOutputPathFilenamePattern": "*.cshtml",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "cshtml"
 			}
 		],
 	"previewPathAddition": "",
