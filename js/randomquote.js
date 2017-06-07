@@ -1,5 +1,7 @@
+/* global Vue */
+/* global myapp:true */
 
-    // setup our draggable windows 
+    // setup our draggable windows  
     $( function() {
       $('#topmenu').draggable({
         snapMode: "outer",
@@ -28,12 +30,10 @@
         $('#dock').css('top', $(window).height() - 409 ); // position dock at bottom of browser window 
         $('#screen').css('height', $(window).height() );  // change height of 'screen' to be equal to browser window height, then hide the overflow
         $('#main').css('top', ($(window).height() - 354 - 50 )/2);  // position quote window on center of screen. 
-        $('#main').css('left', ($(window).width() - 585) / 2 );  // position quote window on center
+        $('#main').css('left', ($(window).width() - 585) / 2 );     // position quote window on center
     });
 
     $(window).trigger('resize');
-
-
 
 
     // setup VueJS for random quotes

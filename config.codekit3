@@ -2515,12 +2515,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/CNAME": {
 		"ft": 8192,
 		"oA": 2,
@@ -2605,7 +2599,7 @@
 	"displayValue": "random quote",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-crying",
-	"lastBuiltDate": 518501888
+	"lastBuiltDate": 518510666
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
