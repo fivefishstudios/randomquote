@@ -42,7 +42,7 @@
         $('.icon').css('left', $(window).width() - 130 );
       
         $('#screen').css('height', $(window).height() );  // change height of 'screen' to be equal to browser window height, then hide the overflow
-        $('#main').css('top', ($(window).height() - 354 - 50 )/2);  // position quote window on center of screen. 
+        $('#main').css('top', ($(window).height() - 354 - 260 )/2);  // position quote window on center of screen. 
         $('#main').css('left', ($(window).width() - 585) / 2 );     // position quote window on center
         // if notification window isn't dismissed, and browser resized... move it too!
         $('#instruction').css('left', $(window).width() - 270 - 60 );
