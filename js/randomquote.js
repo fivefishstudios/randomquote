@@ -26,11 +26,13 @@
         snap: false,
         snapTolerance: 10
       });
-    });
+    }); 
 
 
     // position dock at bottom of browser screen, depending on user's browser height
     $(window).resize(function() {
+        $('#screen').css('height', $(window).height() );  // change height of 'screen' to be equal to browser window height, then hide the overflow  
+      
         $('#dock').css('top', $(window).height() - 35 ); // position dock at bottom of browser window 
         if ($(window).width() < 1692 ){
           $('#dock').css('left', 0); // position dock at edge of left screen
@@ -38,16 +40,16 @@
           $('#dock').css('left', ($(window).width() - 1692)/2 ); // position dock at center of browser window 
         }
       
-        // icons
-        $('.icon').css('left', $(window).width() - 100 );
-      
-        $('#screen').css('height', $(window).height() );  // change height of 'screen' to be equal to browser window height, then hide the overflow
         $('#main').css('top', ($(window).height() - 354 - 260 )/2);  // position quote window on center of screen. 
         $('#main').css('left', ($(window).width() - 585) / 2 );     // position quote window on center
+        
         // if notification window isn't dismissed, and browser resized... move it too!
         $('#instruction').css('left', $(window).width() - 270 - 60 );
     });
     $(window).trigger('resize');
+
+    // icons, all right justified at initial position
+    $('.icon').css('left', $(window).width() - 100 );
 
     // position notification window to right side
     $('#instruction').css('left', $(window).width() - 270 - 60 );
@@ -63,7 +65,6 @@
       el: '#screen',
       
       data: {
-        name: 'Owel',
         showTribute: true,
         showQuote: true,
         ndx: 0,
@@ -103,7 +104,7 @@
     myapp.generateNewQuote();
 
 
-    // load tribute
+    // load tribute via ajax
     $('#tributeWindow').load('/tribute/index.html');
   
   
