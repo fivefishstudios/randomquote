@@ -2527,15 +2527,39 @@
 		"oAP": "\/build\/CNAME",
 		"oF": 0
 		},
-	"\/css\/randomquote.css": {
-		"aP": 1,
+	"\/css\/randomquote.less": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/build\/css\/randomquote.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/css\/tribute.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/build\/css\/tribute.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
 		},
 	"\/images\/desktop.jpg": {
 		"ft": 16384,
@@ -2594,6 +2618,199 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/tribute\/images\/different-class-album.png": {
+		"ft": 32768,
+		"iS": 1350137,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/different-class-album.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/disco1.png": {
+		"ft": 32768,
+		"iS": 471224,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/disco1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/disco10.png": {
+		"ft": 32768,
+		"iS": 481067,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/disco10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/disco11.png": {
+		"ft": 32768,
+		"iS": 499382,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/disco11.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/disco12.png": {
+		"ft": 32768,
+		"iS": 523384,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/disco12.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/disco2.png": {
+		"ft": 32768,
+		"iS": 550493,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/disco2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/disco3.png": {
+		"ft": 32768,
+		"iS": 513389,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/disco3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/disco4.png": {
+		"ft": 32768,
+		"iS": 533691,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/disco4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/disco5.png": {
+		"ft": 32768,
+		"iS": 505422,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/disco5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/disco6.png": {
+		"ft": 32768,
+		"iS": 546434,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/disco6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/disco7.png": {
+		"ft": 32768,
+		"iS": 501813,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/disco7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/disco8.png": {
+		"ft": 32768,
+		"iS": 524939,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/disco8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/disco9.png": {
+		"ft": 32768,
+		"iS": 501966,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/disco9.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/pulp-babies.png": {
+		"ft": 32768,
+		"iS": 1107019,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/pulp-babies.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/pulp-band-photo.png": {
+		"ft": 32768,
+		"iS": 430282,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/pulp-band-photo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/PulpLogo.png": {
+		"ft": 32768,
+		"iS": 76940,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/PulpLogo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/images\/Tribute.png": {
+		"ft": 32768,
+		"iS": 6400064,
+		"oA": 0,
+		"oAP": "\/build\/tribute\/images\/Tribute.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/tribute\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/tribute\/index.html",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -2605,7 +2822,7 @@
 	"displayValue": "random quote",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-crying",
-	"lastBuiltDate": 518510666
+	"lastBuiltDate": 518597244
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4542,21 +4759,21 @@
 	"languageDefaultsUserDefined": [
 		{
 			"autoOutputAction": 0,
-			"autoOutputPathFilenamePattern": "*.asp",
-			"autoOutputPathRelativePath": "",
-			"autoOutputPathReplace1": "",
-			"autoOutputPathReplace2": "",
-			"autoOutputPathStyle": 0,
-			"fileExtension": "asp"
-			},
-		{
-			"autoOutputAction": 0,
 			"autoOutputPathFilenamePattern": "*.cshtml",
 			"autoOutputPathRelativePath": "",
 			"autoOutputPathReplace1": "",
 			"autoOutputPathReplace2": "",
 			"autoOutputPathStyle": 0,
 			"fileExtension": "cshtml"
+			},
+		{
+			"autoOutputAction": 0,
+			"autoOutputPathFilenamePattern": "*.asp",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "asp"
 			}
 		],
 	"previewPathAddition": "",
@@ -4730,7 +4947,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/build"
 	},
 "settingsFileVersion": "3"
 }

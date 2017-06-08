@@ -20,10 +20,10 @@
         snapTolerance: 10,
         disabled: true
       });
-      
+          
       $( ".window" ).draggable({
         snapMode: "both",
-        snap: true,
+        snap: false,
         snapTolerance: 10
       });
     });
@@ -31,7 +31,13 @@
 
     // position dock at bottom of browser screen, depending on user's browser height
     $(window).resize(function() {
-        $('#dock').css('top', $(window).height() - 409 ); // position dock at bottom of browser window 
+        $('#dock').css('top', $(window).height() - 35 ); // position dock at bottom of browser window 
+        if ($(window).width() < 1692 ){
+          $('#dock').css('left', 0); // position dock at edge of left screen
+        } else {
+          $('#dock').css('left', ($(window).width() - 1692)/2 ); // position dock at center of browser window 
+        }
+      
         $('#screen').css('height', $(window).height() );  // change height of 'screen' to be equal to browser window height, then hide the overflow
         $('#main').css('top', ($(window).height() - 354 - 50 )/2);  // position quote window on center of screen. 
         $('#main').css('left', ($(window).width() - 585) / 2 );     // position quote window on center
@@ -90,5 +96,9 @@
 
     // init initial random quote
     myapp.generateNewQuote();
+
+
+    // load tribute
+    $('#tributeWindow').load('/tribute/index.html');
   
   
