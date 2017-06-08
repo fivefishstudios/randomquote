@@ -38,8 +38,8 @@
           $('#dock').css('left', ($(window).width() - 1692)/2 ); // position dock at center of browser window 
         }
       
-        // icon tribute
-        $('#tribute-icon').css('left', $(window).width() - 130 );
+        // icons
+        $('.icon').css('left', $(window).width() - 130 );
       
         $('#screen').css('height', $(window).height() );  // change height of 'screen' to be equal to browser window height, then hide the overflow
         $('#main').css('top', ($(window).height() - 354 - 50 )/2);  // position quote window on center of screen. 
@@ -65,6 +65,7 @@
       data: {
         name: 'Owel',
         showTribute: true,
+        showQuote: true,
         ndx: 0,
         quotes: [ 
           {person: 'Steve Jobs', message: "Being the richest man in the cemetery doesn't matter to me. Going to bed at night saying we've done something wonderful, that's what matters to me."  },

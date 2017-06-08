@@ -36,9 +36,15 @@
     <div id="desktop">
       <div id="topmenu"></div>
       
-      <div id="tribute-icon" class="window" @click="showTribute = !showTribute">
-        <div id="tribute-icon-text">Tribute Program</div>
+      <div id="tribute-icon" class="icon window" @click="showTribute = !showTribute">
+        <div class="icon-text">Tribute Program</div>
       </div>
+      
+<!--
+      <div id="quote-icon" class="icon window" @click="showQuote = !showQuote">
+        <div class="icon-text">Random Quote</div>
+      </div> 
+-->
       
       <div class="window notification" id="instruction" @click="dismissNotification">
         <div class="notification-icon"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></div>
@@ -47,7 +53,7 @@
       </div>
 
 
-      <div class="window ui-widget-content" id="main">
+      <div class="window ui-widget-content" id="main" v-show="showQuote">
           <div id="refresh" @click="generateNewQuote"><i class="fa fa-refresh fa-5x" aria-hidden="true"></i></div>
           <div id="quote"><i class="fa fa-quote-left" aria-hidden="true"></i>
               {{ quotes[ndx].message }}
