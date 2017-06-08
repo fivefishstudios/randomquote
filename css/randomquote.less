@@ -55,8 +55,7 @@
     width: 585px;
     height: 354px;
     z-index: 100;
-    position: relative;
-//    opacity: 0.93;
+    position: fixed;
     /* margin: auto; /* initial position */
     top: 0px;        /* this needs to be computed, depending on browser's height */
     left: 0px;       /* this needs to be computed, depending on browser's width */
@@ -154,14 +153,15 @@
 }
 
 #quote-icon{
-  top: 120px;
-  background-color: red;
+  background-image: url("/images/quote.png");
+  top: 60px;
+  background-color: #EEE;
 }
 
 
 #tributeWindow{
-  position: relative;
-  top: -400px;
+  position: fixed;
+  top: 100px;
   left: 3%;
   background-color: #FFF;
   height: 600px;

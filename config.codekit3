@@ -2515,6 +2515,12 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
 	"\/CNAME": {
 		"ft": 8192,
 		"oA": 2,
@@ -2581,6 +2587,17 @@
 		"iS": 30859,
 		"oA": 0,
 		"oAP": "\/build\/images\/pulp-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/images\/quote.png": {
+		"ft": 32768,
+		"iS": 6187,
+		"oA": 0,
+		"oAP": "\/build\/images\/quote.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
