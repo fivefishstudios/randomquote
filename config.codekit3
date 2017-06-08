@@ -2515,12 +2515,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/CNAME": {
 		"ft": 8192,
 		"oA": 2,
@@ -2584,7 +2578,7 @@
 		},
 	"\/images\/pulp-icon.png": {
 		"ft": 32768,
-		"iS": 361603,
+		"iS": 30859,
 		"oA": 0,
 		"oAP": "\/build\/images\/pulp-icon.png",
 		"oF": 0,
@@ -2736,7 +2730,7 @@
 		"oAP": "\/build\/tribute\/images\/disco6.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 80
 		},
@@ -2791,7 +2785,7 @@
 		"oAP": "\/build\/tribute\/images\/pulp-band-photo.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 80
 		},
@@ -2833,7 +2827,7 @@
 	"displayValue": "random quote",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-crying",
-	"lastBuiltDate": 518597244
+	"lastBuiltDate": 518639208
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

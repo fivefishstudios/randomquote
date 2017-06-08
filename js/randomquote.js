@@ -39,7 +39,7 @@
         }
       
         // icons
-        $('.icon').css('left', $(window).width() - 130 );
+        $('.icon').css('left', $(window).width() - 100 );
       
         $('#screen').css('height', $(window).height() );  // change height of 'screen' to be equal to browser window height, then hide the overflow
         $('#main').css('top', ($(window).height() - 354 - 260 )/2);  // position quote window on center of screen. 
