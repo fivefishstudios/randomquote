@@ -4,12 +4,20 @@
     <title>RandomQuotomator Machine</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+  
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://unpkg.com/vue"></script>  
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Shadows+Into+Light" rel="stylesheet">
+    <link href="/css/owfont-regular.css" rel="stylesheet" type="text/css">
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     
@@ -29,6 +37,7 @@
 
     <link rel="stylesheet" href="/css/randomquote.css" >
     <link rel="stylesheet" href="/css/tribute.css">  
+    <link rel="stylesheet" href="/css/weather.css">  
 </head>
   
 <body>
@@ -44,12 +53,15 @@
         <div class="icon-text">Random Quote</div>
       </div> 
       
+      <div id="weather-icon" class="icon window" @click="showWeather = !showWeather">
+        <div class="icon-text">Weather App</div>
+      </div> 
+      
       <div class="window notification" id="instruction" @click="dismissNotification">
         <div class="notification-icon"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></div>
         <div class="notification-msg">You can move windows around by dragging with your mouse.</div>
         <div class="notification-prompt"><a id="notificationDismiss" >DISMISS</a></div>
       </div>
-
 
       <div class="window ui-widget-content" id="main" v-show="showQuote">
           <div id="refresh" @click="generateNewQuote"><i class="fa fa-refresh fa-5x" aria-hidden="true"></i></div>
@@ -62,11 +74,40 @@
       
       <div id="tributeWindow" class="window" v-show="showTribute"></div>
       
+      <div id="weatherWindow" class="window" v-show="showWeather">
+          <div id="map"></div>
+    
+            <div class="container-fluid">
+              <div id="forecast" class="row">
+                <div class="col-xs-12 col-md-12">
+                  <h1>Your Weather Forecast</h1>
+                  <hr>
+                  <div id="weathericon"></div>
+                  <div id="city"></div>
+                  <div id="content">
+                    <div id="desc"></div>
+                    <div id="temp"></div>
+                    <div id="humidity"></div>
+                    <div id="windspeed"></div>
+                  </div>
+                </div>  
+              </div>
+            </div>
+      </div>
+          
       <div id="dock"></div>
     </div>
   </div>
-</body>
 
+<script src="/js/weather.js"></script>
 <script src="/js/randomquote.js"></script>
+
+<!-- google maps -->
+<script 
+  async 
+  defer 
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0V0yDJBNvnaSVz3XCsm5Pyu91U144DcM&callback=initMap">
+</script>
   
+</body>
 </html>

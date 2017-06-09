@@ -159,14 +159,37 @@
 }
 
 
+#weather-icon{
+  background-image: url("/images/weather-icon.png");
+  top: 100px;
+  background-color: blue;
+}
+
+
 #tributeWindow{
   position: fixed;
   top: 100px;
-  left: 3%;
+  left: 40%;
   background-color: #FFF;
   height: 600px;
   width: 40%;
   min-width: 500px;
   overflow-y: auto;
   overflow-x: hidden;
+  z-index: 10;
+}
+
+
+
+#weatherWindow{
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  background-color: #FFF;
+  height: 800px;
+  width: 800px;
+  min-width: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 0;
 }

@@ -2527,6 +2527,26 @@
 		"oAP": "\/build\/CNAME",
 		"oF": 0
 		},
+	"\/css\/owfont-regular.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/css\/owfont-regular.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/owfont-regular.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/css\/owfont-regular.min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/randomquote.less": {
 		"aP": 0,
 		"bl": 0,
@@ -2560,6 +2580,57 @@
 		"sI": 0,
 		"sM": 0,
 		"sU": 0
+		},
+	"\/css\/weather.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/build\/css\/weather.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/fonts\/owfont-regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/owfont-regular.eot",
+		"oF": 0
+		},
+	"\/fonts\/owfont-regular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/owfont-regular.otf",
+		"oF": 0
+		},
+	"\/fonts\/owfont-regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/owfont-regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/owfont-regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/owfont-regular.ttf",
+		"oF": 0
+		},
+	"\/fonts\/owfont-regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/owfont-regular.woff",
+		"oF": 0
 		},
 	"\/images\/desktop.jpg": {
 		"ft": 16384,
@@ -2615,6 +2686,17 @@
 		"oT": 1,
 		"q": 80
 		},
+	"\/images\/weather-icon.png": {
+		"ft": 32768,
+		"iS": 6612,
+		"oA": 0,
+		"oAP": "\/build\/images\/weather-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
 	"\/images\/window.png": {
 		"ft": 32768,
 		"iS": 24620,
@@ -2637,6 +2719,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/js\/randomquote.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/weather.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/build\/js\/weather.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -4781,21 +4872,21 @@
 	"languageDefaultsUserDefined": [
 		{
 			"autoOutputAction": 0,
-			"autoOutputPathFilenamePattern": "*.cshtml",
-			"autoOutputPathRelativePath": "",
-			"autoOutputPathReplace1": "",
-			"autoOutputPathReplace2": "",
-			"autoOutputPathStyle": 0,
-			"fileExtension": "cshtml"
-			},
-		{
-			"autoOutputAction": 0,
 			"autoOutputPathFilenamePattern": "*.asp",
 			"autoOutputPathRelativePath": "",
 			"autoOutputPathReplace1": "",
 			"autoOutputPathReplace2": "",
 			"autoOutputPathStyle": 0,
 			"fileExtension": "asp"
+			},
+		{
+			"autoOutputAction": 0,
+			"autoOutputPathFilenamePattern": "*.cshtml",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "cshtml"
 			}
 		],
 	"previewPathAddition": "",

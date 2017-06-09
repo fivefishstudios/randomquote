@@ -20,6 +20,10 @@
         snapTolerance: 10,
         disabled: true
       });
+      
+      $('#weatherWindow').draggable({
+        disabled: true
+      });
           
       $( ".window" ).draggable({
         snapMode: "both",
@@ -45,11 +49,13 @@
         
         // if notification window isn't dismissed, and browser resized... move it too!
         $('#instruction').css('left', $(window).width() - 270 - 60 );
+
+        // icons, all right justified at initial position and when browser resized
+        $('.icon').css('left', $(window).width() - 100 );
+     
     });
     $(window).trigger('resize');
 
-    // icons, all right justified at initial position
-    $('.icon').css('left', $(window).width() - 100 );
 
     // position notification window to right side
     $('#instruction').css('left', $(window).width() - 270 - 60 );
@@ -67,6 +73,7 @@
       data: {
         showTribute: true,
         showQuote: true,
+        showWeather: true,
         ndx: 0,
         quotes: [ 
           {person: 'Steve Jobs', message: "Being the richest man in the cemetery doesn't matter to me. Going to bed at night saying we've done something wonderful, that's what matters to me."  },
@@ -103,8 +110,10 @@
     // init initial random quote
     myapp.generateNewQuote();
 
-
     // load tribute via ajax
     $('#tributeWindow').load('/tribute/index.html');
+
+
+    
   
   
