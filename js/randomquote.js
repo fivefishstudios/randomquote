@@ -28,9 +28,17 @@
       $( ".window" ).draggable({
         snapMode: "both",
         snap: false,
-        snapTolerance: 10
+        snapTolerance: 10,
+        stack: ".window"
       });
     }); 
+
+
+    // event handler, move window on top if clicked
+    $(".window").click(function(){
+      var thisWindow = $(this).attr('id');
+      alert(thisWindow);
+    });
 
 
     // position dock at bottom of browser screen, depending on user's browser height
