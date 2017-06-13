@@ -22,7 +22,7 @@
       });
       
       $('#weatherWindow').draggable({
-        disabled: true
+        disabled: false
       });
           
       $( ".window" ).draggable({

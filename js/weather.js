@@ -62,7 +62,23 @@
         // disableDoubleClickZoom: true
       });
 
-
+      
+      // TEST... if user clicks on map, disable draggable property (jquery)    
+      map.addListener('mouseover',function(){
+        $('#weatherWindow').draggable({
+          disabled: true
+        });
+      });
+      
+      map.addListener('mouseout',function(){
+        $('#weatherWindow').draggable({
+          disabled: false
+        });
+      });
+      
+      
+      
+      
       // if user drags the map and changed location, display weather report on new location
       map.addListener('dragend', function(){
           // alert(map.getCenter());
